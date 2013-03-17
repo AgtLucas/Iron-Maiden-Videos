@@ -1,0 +1,29 @@
+/*------------------------------------------------------------------------------------*\
+    $LAYOUT RULES
+\*------------------------------------------------------------------------------------*/
+
+.content {
+	position: relative;
+	width: 68.75em; /* 1100px */
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 0.625em; /* 10px */
+}
+
+header,
+footer {
+	background-color: $nied;
+}
+
+header {
+	text-align: center;
+}
+
+section.featured-video {
+	position: relative;
+	margin-top: 1.25em;
+	background-color: teal;
+	.main-video {
+		text-align: center;
+	}
+}
