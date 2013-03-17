@@ -19,6 +19,15 @@ header {
 	text-align: center;
 }
 
+ul.menu {
+	padding: 0;
+}
+
+ul.menu li {
+	display: inline;
+	margin: 1.25em;
+}
+
 section.featured-video {
 	position: relative;
 	margin-top: 1.25em;
