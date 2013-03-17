@@ -1,0 +1,48 @@
+/*------------------------------------------------------------------------------------*\
+    $BASE RULES
+\*------------------------------------------------------------------------------------*/
+
+$nied: #030000;
+$goodgrey: #404040;
+$awhite: #f3f3f3;
+$livedie: #595959;
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    // background: url(../img/dark_stripes.png);
+    background-color: $goodgrey;
+    font-size: 1rem;
+    font-size: 16px;
+    color: #fff;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.chromeframe {
+    position: relative;
+    background-color: tomato;
+    color: $awhite;
+    font-size: 20px;
+    padding: 40px;
+    top: -20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    a {
+        text-decoration: none;
+        counter-reset: $livedie;
+    }
+}
