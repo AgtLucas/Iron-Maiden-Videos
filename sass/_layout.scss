@@ -20,8 +20,12 @@ header {
 }
 
 nav.top {
+	position: relative;
+	top: -10px;
 	font-size: 0.875rem;
 	font-size: 14px;
+	text-align: center;
+	background-color: $nied;
 }
 
 ul.menu {
