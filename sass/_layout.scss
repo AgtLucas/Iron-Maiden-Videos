@@ -28,8 +28,16 @@ nav.top {
 	background-color: $nied;
 }
 
+nav.bottom {
+	position: relative;
+	top: 20px;
+}
+
 ul.menu {
 	padding: 0;
+	a {
+		color: $awhite;
+	}
 }
 
 ul.menu li {
@@ -44,4 +52,16 @@ section.featured-video {
 	.main-video {
 		text-align: center;
 	}
+}
+
+section.other-videos {
+	background-color: tomato;
+	width: 55.5555556%;
+	float: left;
+}
+
+aside.sidebar {
+	background-color: $livedie;
+	width: 37.037037%;
+	float: right;
 }
