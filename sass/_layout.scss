@@ -48,9 +48,11 @@ ul.menu li {
 section.featured-video {
 	position: relative;
 	margin-top: 1.25em;
-	background-color: teal;
+	background: url(../img/debut_dark.png);
+	// background-color: $goodgrey;
 	.main-video {
 		text-align: center;
+		z-index: 1;
 	}
 }
 
