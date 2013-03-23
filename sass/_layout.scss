@@ -22,8 +22,8 @@ header {
 nav.top {
 	position: relative;
 	top: -10px;
-	font-size: 0.875rem;
 	font-size: 14px;
+	font-size: 0.875rem;
 	text-align: center;
 	background-color: $nied;
 }
@@ -48,7 +48,7 @@ ul.menu li {
 section.featured-video {
 	position: relative;
 	margin-top: 1.25em;
-	background: url(../img/debut_dark.png);
+	// background: url(../img/debut_dark.png);
 	// background-color: $goodgrey;
 	.main-video {
 		text-align: center;
@@ -57,7 +57,7 @@ section.featured-video {
 }
 
 section.other-videos {
-	background-color: tomato;
+	background-color: $livedie;
 	width: 55.5555556%;
 	float: left;
 }
