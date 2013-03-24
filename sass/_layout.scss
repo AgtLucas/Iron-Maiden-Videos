@@ -19,6 +19,10 @@ header {
 	text-align: center;
 }
 
+footer {
+	margin-top: 4em;
+}
+
 nav.top {
 	position: relative;
 	top: -10px;
@@ -57,19 +61,24 @@ section.featured-video {
 }
 
 section.other-videos {
-	background-color: $livedie;
-	width: 55.5555556%;
+	// background-color: $livedie;
+	width: 57.4074074%; /* 620px */
 	float: left;
 }
 
 aside.sidebar {
-	background-color: $livedie;
-	width: 37.037037%;
+	// background-color: $livedie;
+	width: 37.037037%; /* 400px */
 	float: right;
 }
 
 .footer-widget {
 	width: 22.5em; /* 360px */
 	float: left;
-	background-color: teal;
+}
+
+.copyright {
+	position: relative;
+	margin-top: 2em;
+	text-align: center;
 }
