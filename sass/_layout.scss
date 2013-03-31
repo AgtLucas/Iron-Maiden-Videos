@@ -63,6 +63,13 @@ section.featured-video {
 section.other-videos {
 	width: 57.4074074%; /* 620px */
 	float: left;
+
+	.video {
+		background-color: $nied;
+		margin: 0 0 0.625em 0;
+		padding: 1.25em;
+		height: 6.25em;
+	}
 }
 
 aside.sidebar {
