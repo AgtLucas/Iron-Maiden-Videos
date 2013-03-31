@@ -25,11 +25,15 @@ footer {
 
 nav.top {
 	position: relative;
-	top: -10px;
+	height: 20px;
+	top: -15px;
 	font-size: 14px;
 	font-size: 0.875rem;
 	text-align: center;
 	background-color: $nied;
+	ul {
+		padding: 10px;
+	}
 }
 
 nav.bottom {
