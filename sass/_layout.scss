@@ -59,7 +59,10 @@ section.featured-video {
 	// background: url(../img/debut_dark.png);
 	background-color: $nied;
 	.main-video {
+		margin: auto;
 		text-align: center;
+		width: 53.125em; /* 850px */
+		max-width: 100%;
 		z-index: 1;
 	}
 }
