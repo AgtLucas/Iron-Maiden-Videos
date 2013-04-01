@@ -55,7 +55,7 @@ ul.menu li {
 
 section.featured-video {
 	position: relative;
-	margin-top: 1.25em;
+	margin-top: 0.625em;
 	background: url(../img/noisy_net.png);
 	// background-color: $nied;
 	.main-video {
@@ -75,7 +75,7 @@ section.other-videos {
 		background-color: $nied;
 		margin: 0 0 0.625em 0;
 		padding: 1.25em;
-		height: 6.25em;
+		height: 9.375em; /* 150px */
 	}
 }
 
