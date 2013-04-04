@@ -83,6 +83,19 @@ section.other-videos {
 	}
 }
 
+section.pagination {
+	background-color: $goodgrey;
+	padding: 1.25em;
+	span.current {
+		// background-color: $goodgrey;
+		color: $nied;
+		padding: 0.625em;
+	}
+	a {
+		padding: 0.625em;
+	}
+}
+
 aside.sidebar {
 	background-color: $beast;
 	width: 37.037037%; /* 400px */
