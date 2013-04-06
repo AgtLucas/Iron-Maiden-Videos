@@ -87,9 +87,9 @@ section.pagination {
 	background-color: $goodgrey;
 	padding: 1.25em;
 	span.current {
-		// background-color: $goodgrey;
 		color: $nied;
 		padding: 0.625em;
+		text-decoration: underline;
 	}
 	a {
 		padding: 0.625em;
